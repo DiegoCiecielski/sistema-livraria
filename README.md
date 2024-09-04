@@ -20,3 +20,8 @@ O programa possui a seguinte interface:
 11. **Listar estoque de filial**
 12. **Buscar livros por código**
 0. **Encerrar atividades**
+
+## Estrutura do Projeto
+- `Livro`: Classe que representa um livro com atributos como código, título, editora, categoria, ano, valor e estoque.
+- `Filial`: Classe que representa uma filial com código, nome, endereço, contato e estoque de livros.
+- `Livraria`: Classe principal que gerencia todas as filiais e livros, com métodos para cadastro, busca e atualização de dados.
